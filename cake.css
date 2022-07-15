@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header1{
+    background-color: #D33C44;
+    color: white;
+    height: 70px;
+    width: 100%;
+    border-right: none;
+    box-sizing: border-box;
+
+}
+
+.header1>h1{
+    line-height: 50px;
+    float: left;
+    line-height: 50px;
+    margin-bottom: 50px;
+    font-size: large;
+}
+.header1>h1>img{
+    height: 70px;
+    width: auto;
+}
+.header1>ul{
+    list-style-type: none;
+    display: flex;
+    line-height: 80px;
+    float: right;
+}
+
+.cakephp{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Documentation, .Swag, .BusinessSolutions, .Team, .Community, .en{
+margin-right: 20px;
+font-weight: bold;
+}
+
+.Donate{
+    background-color:#363637;
+    height: 70px;
+    width: 60px;
+    text-align: center;
+
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.purple{
+    background-color : #1d0036;
+    height:500px;
+    width:80%;
+    color:white;
+    margin-top: 75px;
+    margin-bottom: 60px;
+    margin-left: 120px;
+}
+
+.left-purple>h1{
+    color: #D33C44;
+    font-size: 30px;
+    margin-left:35px;
+    text-align: center;
+    line-height: 50px;
+}
+.left-purple>h2{
+    color: white;
+    font-size: 20px;
+    margin-left:35px;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+}
+.left-purple{
+    float:left
+}
+.left-purple{
+    color: #D33C44;
+    margin-left:50px;
+    line-height: 80px;
+
+}
+.left-purple{
+    color: white;
+    font-size:35px ;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.left-banner{
+max-width: auto;
+height: 100%;
+vertical-align: middle;
+border: 0;
+/*box-sizing: border-box;*/
+border-right: none;
+}
+
+
+.install,.Docs,.API{
+
+    width:120px;
+    height: 50px;
+    /* border-radius: 20%; */
+    border-top-left-radius: 35%;
+    border-bottom-right-radius:35%;
+    margin-top: 50px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+.install{
+    background-color: #D33C44;
+    color: white;
+   
+}
+.Docs,.API{
+    background-color: white;
+    color: #D33C44;
+}
+
+.div3{
+    height: 700px;
+    width: 500px;
+    background-color:white;
+    background-image: url('hero_artwork.png');
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-bottom: 900px;
+    float: left;
+    
+}
+
+ .div4{
+    color: black;
+    font-size: medium;
+    float: left;
+}
+
+.div4>ul{
+     list-style-type: disc;
+}
+
+.build, .no, .friendly, .batteries, .clean, .secure{
+    width:20%;
+    height:400px;
+    float:left;
+    margin-left: 90px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    color: black;
+    padding:40px;
+    border-radius:5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border:1px dashed white;
+    
+}
+
+
+
+.no, .friendly, .batteries,.clean{
+   margin-left: 40px;
+
+}
+.clean, .secure{
+
+    margin-top:40px;
+}
